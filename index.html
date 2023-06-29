@@ -1,265 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yashkumar Patel - Resume</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 20px;
-        background-color: #f5f5f5;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
 
-      h1,
-      h2,
-      h3 {
-        color: #333;
-        margin-bottom: 10px;
-      }
+        h1, h2, h3 {
+            color: #333;
+        }
 
-      h1 {
-        font-size: 36px;
-      }
-
-      h2 {
-        font-size: 28px;
-      }
-
-      h3 {
-        font-size: 24px;
-      }
-
-      p {
-        margin: 0 0 10px;
-      }
-
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-      }
-
-      ul li {
-        margin-bottom: 5px;
-      }
-
-      ul li:before {
-        content: "\2022";
-        color: #333;
-        font-size: 12px;
-        display: inline-block;
-        width: 1em;
-        margin-left: -1em;
-      }
-
-      .section {
-        margin-bottom: 30px;
-      }
-
-      .contact-info {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-      }
-
-      .contact-info a {
-        color: #333;
-        text-decoration: none;
-        margin-left: 10px;
-      }
-
-      .summary,
-      .education,
-      .skills,
-      .work-experience,
-      .related-projects,
-      .volunteer-work,
-      .achievements {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px;
-      }
-
-      .work-experience p,
-      .related-projects p,
-      .volunteer-work p,
-      .achievements p {
-        margin-bottom: 5px;
-      }
-
-      @media (max-width: 480px) {
         h1 {
-          font-size: 24px;
+            font-size: 36px;
+            margin-bottom: 10px;
         }
 
         h2 {
-          font-size: 20px;
+            font-size: 28px;
+            margin-bottom: 10px;
         }
 
         h3 {
-          font-size: 18px;
+            font-size: 24px;
+            margin-bottom: 10px;
         }
-      }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .summary {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .education, .skills, .work-experience, .related-projects, .volunteer-work, .achievements {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .work-experience p, .related-projects p, .volunteer-work p, .achievements p {
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        ul li:before {
+            content: "\2022";
+            color: #333;
+            font-size: 12px;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+        
+        /* Color and formatting changes */
+        .summary {
+            background-color: #F8F9FA;
+            color: #333;
+        }
+
+        .summary li {
+            color: #555;
+        }
+
+        .education, .skills, .work-experience, .related-projects, .volunteer-work, .achievements {
+            background-color: #E9ECEF;
+            color: #333;
+        }
+
+        .education ul li:nth-child(2n),
+        .work-experience ul li:nth-child(2n),
+        .related-projects ul li:nth-child(2n),
+        .volunteer-work ul li:nth-child(2n),
+        .achievements ul li:nth-child(2n) {
+            background-color: #F8F9FA;
+        }
+
+        .skills ul {
+            columns: 2;
+        }
+
+        .skills ul li {
+            margin-bottom: 8px;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <h1>Yashkumar Patel</h1>
     <div class="contact-info">
-      <p>Brampton, ON | +1 (905)-5209596 | n01581008@humber.ca</p>
-      <a href="https://www.linkedin.com/in/yash1401/" target="_blank">LinkedIn</a>
-      <a href="https://www.github.com/yash1499" target="_blank">GitHub</a>
+        <p>Brampton, ON | +1 (905)-5209596 | n01581008@humber.ca</p>
+        <a href="https://www.linkedin.com/in/yash1401/" target="_blank">LinkedIn</a>
+        <a href="https://www.github.com/yash1499" target="_blank">GitHub</a>
     </div>
+
     <div class="section">
-      <div class="summary">
-        <h2>SUMMARY OF QUALIFICATIONS</h2>
-        <ul>
-          <li>I possess expertise in creating dynamic and engaging websites using my full-stack development experience.</li>
-          <li>I have gained valuable experience as a full-stack developer through two industry internships.</li>
-          <li>I have developed several academic projects utilizing cutting-edge technologies such as Image Recognition and Cloud Computing.</li>
-          <li>I continually improve my technical skills and knowledge through online workshops and tutorials.</li>
-        </ul>
-      </div>
+        <div class="summary">
+            <h2>SUMMARY OF QUALIFICATIONS</h2>
+            <ul>
+                <li>I possess the expertise to create dynamic and engaging websites using my full-stack development experience.</li>
+                <li>My knowledge has been honed through two industry internships, where I have gained valuable experience as a full-stack developer.</li>
+                <li>I have developed several academic projects utilizing cutting-edge technologies such as Image Recognition and Cloud Computing.</li>
+                <li>I continually improve my technical skills and knowledge through online workshops and tutorials, under the guidance of seasoned professionals.</li>
+            </ul>
+        </div>
     </div>
+
     <div class="section">
-      <div class="education">
-        <h2>EDUCATION</h2>
-        <ul>
-          <li>POST-DEGREE CERTIFICATE CLOUD COMPUTING</li>
-          <li>Humber College, Toronto, ON</li>
-          <li>GPA – 3.7</li>
-          <li>JANUARY 2023 – PRESENT</li>
-        </ul>
-        <ul>
-          <li>POST-DEGREE CERTIFICATE INFORMATION TECHNOLOGY INFRASTRUCTURE</li>
-          <li>Fanshawe College, Toronto, ON</li>
-          <li>GPA – 3.92</li>
-          <li>JANUARY 2022 – AUGUST 2022</li>
-        </ul>
-        <ul>
-          <li>BACHELOR’S IN INFORMATION TECHNOLOGY</li>
-          <li>Swarrnim Startup and Innovation University</li>
-          <li>GPA – 3.83</li>
-          <li>JULY 2017 – AUGUST 2021</li>
-        </ul>
-      </div>
+        <div class="education">
+            <h2>EDUCATION</h2>
+            <ul>
+                <li>POST-DEGREE CERTIFICATE CLOUD COMPUTING</li>
+                <li>Humber College Toronto, ON</li>
+                <li>GPA – 3.7</li>
+                <li>JANUARY 2023 – PRESENT</li>
+            </ul>
+            <ul>
+                <li>POST-DEGREE CERTIFICATE INFORMATION TECHNOLOGY INFRASTRUCTURE</li>
+                <li>Fanshawe College Toronto, ON</li>
+                <li>GPA – 3.92</li>
+                <li>JANUARY 2022 – AUGUST 2022</li>
+            </ul>
+            <ul>
+                <li>BACHELOR’S IN INFORMATION TECHNOLOGY</li>
+                <li>Swarrnim Startup and Innovation University</li>
+                <li>GPA – 3.83</li>
+                <li>JULY 2017 – AUGUST 2021</li>
+            </ul>
+        </div>
     </div>
+
     <div class="section">
-      <div class="skills">
-        <h2>TECHNICAL SKILLS</h2>
-        <ul>
-          <li>Languages and Libraries: HTML, CSS, Java, JavaScript, jQuery, Python, PHP, C/C++</li>
-          <li>Frameworks: React.js, React-Native, Django, Flask</li>
-          <li>Mobile Application Development: Android Studio</li>
-          <li>Database Systems: MySQL, MongoDB, PostgreSQL</li>
-          <li>Version Controlling: Git, GitKarken, SourceTree</li>
-          <li>Automation and Server Tools: Jenkins, Nginx</li>
-          <li>Software Applications: Microsoft Office Suite, Adobe Photoshop</li>
-          <li>Cloud Computing: Microsoft Azure, Amazon AWS, Google Cloud Platform</li>
-          <li>Container Services: Docker, Kubernetes</li>
-          <li>Project Management: Jira, Miro board, Monday.com</li>
-        </ul>
-      </div>
+        <div class="skills">
+            <h2>TECHNICAL SKILLS</h2>
+            <ul>
+                <li>Languages and Libraries: HTML, CSS, Java, JavaScript, jQuery, Python, PHP, C/C++</li>
+                <li>Frameworks: React.js, React-Native, Django, Flask</li>
+                <li>Mobile Application Development: Android Studio</li>
+                <li>Database Systems: MySQL, MongoDB, PostgreSQL</li>
+                <li>Version Controlling: Git, GitKarken, SourceTree</li>
+                <li>Automation And Server Tools: Jenkins, Nginx</li>
+                <li>Software Applications: Microsoft Office Kit, Adobe Photoshop</li>
+                <li>Cloud Computing: Microsoft Azure, Amazon AWS, Google GCP</li>
+                <li>Container Services: Docker, Kubernetes</li>
+                <li>Project Management: Jira, Miro board, Monday.com</li>
+            </ul>
+        </div>
     </div>
+
     <div class="section">
-      <div class="work-experience">
-        <h2>WORK EXPERIENCE</h2>
-        <ul>
-          <li>
+        <div class="work-experience">
+            <h2>WORK EXPERIENCE</h2>
             <p>Technical Writing Intern</p>
             <p>AUGUST 2021 – NOVEMBER 2021</p>
             <p>CodeSpeedy Technology Pvt. Ltd, Berhampore, West Bengal, India</p>
             <ul>
-              <li>Technology Stack: Python, Django, OpenCV, MySQL, Miro boards, JavaScript</li>
-              <li>Published articles on CodeSpeedy.com, covering unique programming concepts and providing solutions for website and application development.</li>
-              <li>Examples of my work include converting XML to a dictionary, setting input time limits, saving user input to a .txt file, accessing nested dictionary elements, opening password-protected PDFs, and deleting files older than N days using Python.</li>
-              <li>Link: <a href="https://www.codespeedy.com/author/yash_p/" target="_blank">CodeSpeedy.com/author/yash_p</a>
-              </li>
+                <li>Technology Stack – Python, Django, OpenCV, MySQL, Miro boards, JavaScript</li>
+                <li>Published articles on CodeSpeedy.com where I tackled unique programming concepts and provided solutions that could be applied to website or application development.</li>
+                <li>Examples of my work include converting XML to a dictionary, setting input time limits, saving user input to a .txt file, accessing nested dictionary elements, opening password-protected PDFs, and deleting files older than N days using Python.</li>
+                <li>Link - <a href="https://www.codespeedy.com/author/yash_p/" target="_blank">CodeSpeedy.com/author/yash_p</a></li>
             </ul>
-          </li>
-          <li>
             <p>Software Developer Intern</p>
             <p>JULY 2019 – JUNE 2020</p>
             <p>Softvan Pvt. Ltd, Ahmedabad, Gujarat, India</p>
             <ul>
-              <li>Technology Stack: JavaScript, HTML, ReactJS, CSS, Python, Django, Flask</li>
-              <li>Developed an augmented reality website/web application for clothes shopping, utilizing scanned images of the user's body and text inputs for desired clothing. Filtered data was virtually augmented onto the user's scanned image, providing an efficient and visually enhanced shopping experience.</li>
+                <li>Technology stack – JavaScript, HTML, ReactJS, CSS, Python, Django, Flask</li>
+                <li>Developed an augmented reality website/web-application for clothes shopping, utilizing scanned images of the user's body and text inputs for desired clothing. Filtered data is then virtually augmented onto the user's scanned image, providing a more efficient and visually enhanced shopping experience.</li>
             </ul>
-          </li>
-          <li>
             <p>IOT Intern</p>
-            <p>DECEMBER 2019 – JANUARY 2020</p>
+            <p>December 2019 – January 2020</p>
             <ul>
-              <li>Technology Stack: Python, C++, Arduino IDE, Eclipse</li>
-              <li>Gained practical experience working with an Arduino and developed a clear understanding of various logical concepts.</li>
+                <li>Technology stack – Python, C++, Arduino IDE, Eclipse</li>
+                <li>Gained practical experience through working with an Arduino and developed a clear understanding of various logical concepts.</li>
             </ul>
-          </li>
-        </ul>
-      </div>
+        </div>
     </div>
+
     <div class="section">
-      <div class="related-projects">
-        <h2>RELATED PROJECTS</h2>
-        <ul>
-          <li>
+        <div class="related-projects">
+            <h2>RELATED PROJECTS</h2>
             <p>Facial Recognition Attendance System</p>
             <p>APRIL 2023</p>
             <ul>
-              <li>Technology Stack: JavaScript, Flask, Python, HTML, CSS, MySQL, OpenCV, Haar Cascade Classifier</li>
-              <li>Implemented a project to automate attendance systems in educational institutions using facial recognition technology, reducing time and effort while maintaining accurate attendance records.</li>
+                <li>Technology stack – JavaScript, Flask, Python, HTML, CSS, MySQL, OpenCV, Haar Cascade Classifier</li>
+                <li>Implemented a project to automate attendance systems in educational institutions using face recognition technology, reducing time and effort while maintaining accurate attendance records.</li>
             </ul>
-          </li>
-          <li>
             <p>Vaccine Vision</p>
             <p>APRIL 2023</p>
             <ul>
-              <li>Technology Stack: ArcGIS, Docker, Python, Django, JavaScript, CSS, HTML, SQLite</li>
-              <li>Developed and deployed a web-based application, the Global Vaccination Tracker, to track worldwide vaccination coverage during the COVID-19 pandemic.</li>
+                <li>Technology stack – ArcGIS, Docker, Python, Django, JavaScript, CSS, HTML, SQLite</li>
+                <li>Developed and deployed a web-based application, the Global Vaccination Tracker, to track worldwide vaccination coverage during the COVID-19 pandemic.</li>
             </ul>
-          </li>
-          <li>
             <p>Clothes Shopping using Augmented Reality</p>
-            <p>MAY 2021</p>
+            <p>May 2021</p>
             <ul>
-              <li>Technology Stack: Python, Open Computer Vision, JavaScript, HTML, CSS, Flask</li>
-              <li>Implemented clothes augmentation on human body through an e-commerce website with a virtual try-on feature using OpenCV technology.</li>
+                <li>Technology stack – Python, Open Computer Vision, JavaScript, HTML, CSS, Flask</li>
+                <li>Implemented clothes augmentation on human body through an e-commerce website with a virtual try-on feature using OpenCV technology.</li>
             </ul>
-          </li>
-        </ul>
-      </div>
+        </div>
     </div>
+
     <div class="section">
-      <div class="volunteer-work">
-        <h2>VOLUNTEER WORK EXPERIENCE</h2>
-        <ul>
-          <li>
-            <p>Event Manager - Techfest’18 (Bachelor Techfest)</p>
-            <p>MAY 2019</p>
+        <div class="volunteer-work">
+            <h2>VOLUNTEER WORK</h2>
+            <p>Event Coordinator</p>
+            <p>JULY 2018 – FEBRUARY 2020</p>
+            <p>Rotaract Club of Ahmedabad Narayana Multispeciality Hospital, India</p>
             <ul>
-              <li>Managed onsite and volunteer activities as an Event Manager.</li>
-              <li>Provided technical support during the event.</li>
+                <li>Organized various events, including blood donation camps, health check-up camps, and educational awareness programs in nearby communities.</li>
+                <li>Participated in fundraising activities to support charitable causes.</li>
             </ul>
-          </li>
-        </ul>
-      </div>
+        </div>
     </div>
+
     <div class="section">
-      <div class="achievements">
-        <h2>ACHIEVEMENTS</h2>
-        <ul>
-          <li>
-            <p>Student Representative - SSIU Entrepreneurship-Cell</p>
-            <p>FEBRUARY 2018 - JANUARY 2019</p>
+        <div class="achievements">
+            <h2>ACHIEVEMENTS</h2>
             <ul>
-              <li>Served as head of SSIU Entrepreneurship-Cell for a year, responsible for managing events, bringing and assisting new innovators and researchers, and suggesting new ideas for start-ups.</li>
+                <li>Winner of the National Level Hackathon organized by Swarrnim Startup and Innovation University in 2019.</li>
+                <li>Head of SSIU Entrepreneurship-Cell for a year.</li>
+                <li>Earned badges for Cloud Engineering, Data Science & Machine Learning, and Application Development Tracks on Google Cloud Platform via Quicklabs. (https://www.cloudskillsboost.google/public_profiles/bd9cfc37-71df-4ff5-8d9c-59ac3540dd81)</li>
+                <li>Participated in various coding competitions and secured positions in several events.</li>
+                <li>Received the "Best Volunteer" award from the Rotaract Club of Ahmedabad Narayana Multispeciality Hospital in 2020.</li>
             </ul>
-          </li>
-        </ul>
-      </div>
+        </div>
     </div>
-  </body>
+</body>
 </html>
